@@ -1,0 +1,1 @@
+En el cálculo de la Di,j j = 0 corresponde al bias unit, no queremos regularizarla (ver vídeo, al final) por eso no se pone el término de regularización

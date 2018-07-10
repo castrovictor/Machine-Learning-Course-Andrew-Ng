@@ -1,0 +1,5 @@
+En el gradient descent, si tomamos un valor de alpha muy grande, puede que no converga nunca al mínimo. 
+Un valor muy chico dará la convergencia, pero puede tardar mucho en converger. Para hacerse una idea de qué valores tomar, ver las diapositivas. Si el rango de valores cambia mucho, normalizar.
+En la ecuación normal no hace falta normalizar y es exacta, pero para matrices de orden mayor a 10.000 invertir la matriz es muy costoso, usar el gradient descent.
+
+Si no converge, usar un alpha menor. Que converga muy rápido pero al final se estabilice no es problema, la función tiene que ir acercándose al eje x, si se dispara es que no converge. Con función me refiero a graficar el número de iteraciones con el valor de la función de coste, tiene que ir tendiendo a 0.

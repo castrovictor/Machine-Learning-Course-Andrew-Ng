@@ -1,0 +1,2 @@
+Si la función no es convexa, el gradiente descendente podría no converger correctamente, no se asegura que se alcanza el mínimo global.
+Maximun likelihood estimaton es el método más popular para la estimación

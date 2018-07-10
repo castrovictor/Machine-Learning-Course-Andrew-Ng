@@ -1,0 +1,1 @@
+El p es 2, por lo que el valor que minimiza P por norma de theta que verifica que es >=1, el mínimo que puede tomar theta es 1/2

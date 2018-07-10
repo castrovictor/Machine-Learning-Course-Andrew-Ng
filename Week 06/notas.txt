@@ -1,0 +1,3 @@
+La precisión es cuantos positivos hemos dado en proporción al número de positivos que hay. El recall es de todos los positivos que hay, cuántos hemos dado como positivos. Es decir, el primero ayuda a ver la precisión, el segundo evita que nos dejemos casos. Por ejemplo, si queremos asegurarnos que cogemos al mayor número de pacientes con cáncer, queremos aumentar el recall, para dejarnos a los menos posibles atrás. 
+Esto se consigue, en la función sigmoide por ejemplo, poniendo el corte más bajo, en 0.1 en vez de 0.5 por ejemplo. Perdemos precisión a consta de ganar recall. 
+Al contrario, aumentando el corte, hasta 0.8 por ejemplo, ganamos precisión, pero perdemos recall. Se puede consultar mejor en las transparencias
